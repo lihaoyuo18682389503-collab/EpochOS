@@ -1,0 +1,200 @@
+[wall] chunk ok lba=6717 remain=509
+[wall] chunk ok lba=6845 remain=381
+[wall] chunk ok lba=6973 remain=253
+[wall] chunk ok lba=7101 remain=125
+[wall] wall 1 done
+[wall] loading 2 buf=6D7000 lba=7226
+[wall] chunk ok lba=7226 remain=2813
+[wall] chunk ok lba=7354 remain=2685
+[wall] chunk ok lba=7482 remain=2557
+[wall] chunk ok lba=7610 remain=2429
+[wall] chunk ok lba=7738 remain=2301
+[wall] chunk ok lba=7866 remain=2173
+[wall] chunk ok lba=7994 remain=2045
+[wall] chunk ok lba=8122 remain=1917
+[wall] chunk ok lba=8250 remain=1789
+[wall] chunk ok lba=8378 remain=1661
+[wall] chunk ok lba=8506 remain=1533
+[wall] chunk ok lba=8634 remain=1405
+[wall] chunk ok lba=8762 remain=1277
+[wall] chunk ok lba=8890 remain=1149
+[wall] chunk ok lba=9018 remain=1021
+[wall] chunk ok lba=9146 remain=893
+[wall] chunk ok lba=9274 remain=765
+[wall] chunk ok lba=9402 remain=637
+[wall] chunk ok lba=9530 remain=509
+[wall] chunk ok lba=9658 remain=381
+[wall] chunk ok lba=9786 remain=253
+[wall] chunk ok lba=9914 remain=125
+[wall] wall 2 done
+[wall] loading 3 buf=837000 lba=10039
+[wall] chunk ok lba=10039 remain=2813
+[wall] chunk ok lba=10167 remain=2685
+[wall] chunk ok lba=10295 remain=2557
+[wall] chunk ok lba=10423 remain=2429
+[wall] chunk ok lba=10551 remain=2301
+[wall] chunk ok lba=10679 remain=2173
+[wall] chunk ok lba=10807 remain=2045
+[wall] chunk ok lba=10935 remain=1917
+[wall] chunk ok lba=11063 remain=1789
+[wall] chunk ok lba=11191 remain=1661
+[wall] chunk ok lba=11319 remain=1533
+[wall] chunk ok lba=11447 remain=1405
+[wall] chunk ok lba=11575 remain=1277
+[wall] chunk ok lba=11703 remain=1149
+[wall] chunk ok lba=11831 remain=1021
+[wall] chunk ok lba=11959 remain=893
+[wall] chunk ok lba=12087 remain=765
+[wall] chunk ok lba=12215 remain=637
+[wall] chunk ok lba=12343 remain=509
+[wall] chunk ok lba=12471 remain=381
+[wall] chunk ok lba=12599 remain=253
+[wall] chunk ok lba=12727 remain=125
+[wall] wall 3 done
+[wall] 4 wallpapers loaded, 1406 KB each
+[dbg] wallpaper_init=1
+[gfx] VBE framebuffer ready
+[gfx] 800x600x32 pitch=3200 lfb=0xFD000000
+[dbg] VBE id=B0C5 xres=800 yres=600 bpp=32 enable=41 virt=800 xoff=0 yoff=0
+[dbg] keep VBE mode (set by boot2), enable=0x41 LFB=on
+[gfx] backbuffer 0x997000 (1920000 bytes)
+[bw] build32 idx=0 addr=B6C000 w=1920000
+[dbg] after backbuf ok
+[test] ready
+[swap] n=1 area=480000 drawbase=0x997000 back=0x997000
+[desk] cache built 0xD41000
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=883us win=23us task=77us status=819us menu=3us cur=94us swap=125us avg=2030us rtc=22 rw=0 rwt=-1
+[test] opened type=1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=19us win=14us task=28us status=4us menu=2us cur=87us swap=935us avg=1094us rtc=23 rw=1 rwt=1
+[test] press 500,276
+[g] click covered-by win1 type=1
+[test] release
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=500,276
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=500,276
+[prof] n=60 desk=62us win=924us task=5us status=5us menu=2us cur=92us swap=933us avg=2027us rtc=25 rw=1 rwt=1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=500,276
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=500,276
+[prof] n=60 desk=22us win=14us task=5us status=5us menu=3us cur=97us swap=118us avg=268us rtc=27 rw=0 rwt=-1
+[test] press 270,523
+[g] click covered-by win1 type=1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[test] release
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[prof] n=60 desk=828us win=145us task=4us status=4us menu=2us cur=87us swap=972us avg=2048us rtc=29 rw=1 rwt=1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[prof] n=60 desk=22us win=12us task=4us status=4us menu=2us cur=101us swap=104us avg=255us rtc=31 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[prof] n=60 desk=19us win=11us task=5us status=5us menu=2us cur=87us swap=98us avg=231us rtc=32 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[test] press 500,171
+[g] click covered-by win1 type=1
+[g] mdx=0 mdy=0 bt=1 cur=500,171
+[prof] n=60 desk=872us win=918us task=5us status=4us menu=2us cur=96us swap=207us avg=2109us rtc=34 rw=1 rwt=1
+[test] release
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=500,171
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=500,171
+[prof] n=60 desk=23us win=13us task=5us status=5us menu=2us cur=91us swap=122us avg=267us rtc=36 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=500,171
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=500,171
+[prof] n=60 desk=22us win=14us task=5us status=5us menu=3us cur=94us swap=110us avg=258us rtc=38 rw=0 rwt=-1
+[test] press 270,523
+[g] click covered-by win1 type=1
+[test] release
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[prof] n=60 desk=137us win=923us task=5us status=5us menu=3us cur=103us swap=938us avg=2119us rtc=40 rw=1 rwt=1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[prof] n=60 desk=22us win=14us task=5us status=5us menu=3us cur=107us swap=114us avg=274us rtc=41 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[prof] n=60 desk=19us win=12us task=8us status=5us menu=2us cur=93us swap=104us avg=248us rtc=43 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[prof] n=60 desk=25us win=15us task=5us status=5us menu=3us cur=103us swap=115us avg=276us rtc=45 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[prof] n=60 desk=24us win=13us task=5us status=5us menu=3us cur=100us swap=135us avg=289us rtc=47 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[prof] n=60 desk=22us win=12us task=4us status=6us menu=3us cur=98us swap=103us avg=253us rtc=49 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[prof] n=60 desk=23us win=15us task=5us status=5us menu=3us cur=114us swap=150us avg=320us rtc=50 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[prof] n=60 desk=22us win=14us task=6us status=5us menu=3us cur=106us swap=113us avg=274us rtc=52 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[prof] n=60 desk=27us win=15us task=5us status=5us menu=3us cur=105us swap=114us avg=282us rtc=54 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[prof] n=60 desk=21us win=14us task=5us status=5us menu=3us cur=106us swap=127us avg=285us rtc=56 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[prof] n=60 desk=23us win=13us task=5us status=5us menu=3us cur=97us swap=117us avg=267us rtc=58 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[prof] n=60 desk=23us win=14us task=5us status=5us menu=3us cur=99us swap=120us avg=274us rtc=59 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[prof] n=60 desk=21us win=13us task=5us status=20us menu=3us cur=102us swap=126us avg=295us rtc=1 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523
+[prof] n=60 desk=25us win=16us task=7us status=5us menu=4us cur=126us swap=136us avg=326us rtc=3 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=270,523

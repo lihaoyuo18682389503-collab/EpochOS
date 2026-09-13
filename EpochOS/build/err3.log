@@ -1,0 +1,1 @@
+E:\Assets\操作系统\工具\bin\qemu-system-i386.exe: -hda E:\Assets\操作系统\EpochOS\build\epochos.img: Could not open 'E:\Assets\操作系统\EpochOS\build\epochos.img': 系统找不到指定的路径。

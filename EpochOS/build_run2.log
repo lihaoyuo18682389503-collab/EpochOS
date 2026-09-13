@@ -1,0 +1,15 @@
+﻿==================================================
+EpochOS Build (two-stage boot + GUI)
+==================================================
+[1/4] Assembling bootloaders...
+>> E:\Assets\操作系统\工具\bin\nasm.exe -f bin C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\boot\boot0.asm -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\boot0.bin
+>> E:\Assets\操作系统\工具\bin\nasm.exe -f bin C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\boot\boot2.asm -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\boot2.bin
+[2/4] Compiling kernel...
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\ata.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\ata.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\cmos.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\cmos.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\fs.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\fs.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\gfx.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\gfx.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\gui.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\gui.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\interrupts.S -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\interrupts_asm.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\interrupts.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\interrupts.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\kernel.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel.o

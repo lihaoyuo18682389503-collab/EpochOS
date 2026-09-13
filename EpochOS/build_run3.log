@@ -1,0 +1,42 @@
+==================================================
+EpochOS Build (two-stage boot + GUI)
+==================================================
+[1/4] Assembling bootloaders...
+>> E:\Assets\操作系统\工具\bin\nasm.exe -f bin C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\boot\boot0.asm -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\boot0.bin
+>> E:\Assets\操作系统\工具\bin\nasm.exe -f bin C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\boot\boot2.asm -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\boot2.bin
+[2/4] Compiling kernel...
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\ata.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\ata.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\cmos.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\cmos.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\fs.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\fs.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\gfx.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\gfx.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\gui.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\gui.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\interrupts.S -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\interrupts_asm.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\interrupts.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\interrupts.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\kernel.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel.o
+C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\kernel.c: In function 'kernel_main':
+C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\kernel.c:160:5: warning: implicit declaration of function 'gfx_init'; did you mean 'fs_init'? [-Wimplicit-function-declaration]
+     gfx_init();
+     ^~~~~~~~
+     fs_init
+
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\keyboard.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\keyboard.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\mm.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\mm.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\mouse.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\mouse.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\paging.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\paging.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\serial.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\serial.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\shell.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\shell.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\speaker.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\speaker.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\string.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\string.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\task.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\task.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\timer.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\timer.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\vga.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\vga.o
+[3/4] Linking kernel...
+>> E:\Assets\操作系统\工具\bin\i686-elf-ld.exe -T C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\linker.ld -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel.elf C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\ata.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\cmos.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\fs.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\gfx.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\gui.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\interrupts_asm.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\interrupts.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\keyboard.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\mm.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\mouse.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\paging.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\serial.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\shell.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\speaker.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\string.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\task.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\timer.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\vga.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-objcopy.exe -O binary C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel.elf C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel.bin
+[4/4] Creating disk image...
+
+Build OK! boot0=512 boot2=16384 kernel=61897
+Image: E:\Assets\操作系统\EpochOS\build\epochos.img (16 MB, -hda)
+
+Run with QEMU:
+  "E:\Assets\操作系统\工具\bin\qemu-system-i386.exe" -hda "E:\Assets\操作系统\EpochOS\build\epochos.img" -display sdl

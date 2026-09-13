@@ -1,0 +1,13 @@
+[b2] vbe sig=4556 0000:6022
+[fs] read super r=0 b0=69,80,70,83 b4=1,0,0,0
+[fs] mounted 0 files from disk
+[gfx] VBE framebuffer ready
+[gfx] 800x600x32 pitch=3200 lfb=0xFD000000
+[dbg] VBE id=B0C5 xres=800 yres=600 bpp=32 enable=41 virt=800 xoff=0 yoff=0
+[dbg] VBE2 id=B0C5 xres=800 yres=600 bpp=32 enable=1 virt=800 xoff=0 yoff=0
+[gfx] backbuffer 0x8C2000 (1920000 bytes)
+[dbg] after backbuf ok
+[test] ready
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[g] mdx=0 mdy=0 bt=0 cur=400,300

@@ -1,0 +1,21 @@
+Screenshot Manifest (MD5 full)
+BOOTLOG | (log) | 
+S0 | S0_desktop.png | 8e1be30ee3d2229ae6b8248e5b05802e | desktop boot (expect: 2 icons + top-left settings + taskbar dock)
+S1 | S1_settings_open.png | fe3a8c0e8b3dd9f63abc42c0c003eb96 | top-left settings click -> Settings window
+S2 | S2_calc_open.png | ef87a42d7329626156f8f4dbd287dccf | taskbar Calculator icon click -> Calculator window
+S3 | S3_calc_235.png | fd49e86e01ee7a8b873682142911b0db | calc keys 2+3= -> expect 5
+PROF_ACTIVE | (log) | [prof] n=60 desk=5us win=27703us task=3us status=18us menu=1us cur=803us swap=30470us avg=59009us rtc=1
+[prof] n=60 desk=6us win=32904us task=2us status=2us menu=1us cur=47us swap=32780us avg=65747us rtc=2
+[prof] n=60 desk=7us win=29483us task=8us status=4us menu=1us cur=63us swap=31521us avg=61092u
+S4 | S4_taskbar_page2.png | 39128f75b10efe09097fef6d006145af | taskbar page-next -> page 2 (Tetris etc)
+S5 | S5_tetris_open.png | fade3c28f19d7128b6ddf61ecdd5cdcf | taskbar p2 Tetris icon click -> Tetris window
+S5b | S5b_tetris_rst.png | 92dc86a0b561c70a69d76b07db0a2756 | tetris restart
+S6 | S6_tetris_drop.png | d3c1805f6f1064f61d87f5f578f33688 | tetris space drop -> piece frozen (expect diff from S5b)
+S7 | S7_tictac.png | ae6093587f4d0fd803c942ac2546a78b | TicTacToe open + click cell0 -> X placed
+S8 | S8_memory.png | 2144fe52e0c5652b3fc96bc61aa5d951 | Memory open + click card0 -> flipped
+S9 | S9_find.png | 708f6d42da94e00e6269569027db86d2 | File Search open + 'calc' + Enter -> results
+S10 | S10_baseconv.png | 4ca142224c97d302edcab752e41a93a0 | BaseConv open + 42 + Enter -> 101010/52/2A
+S11 | S11_random.png | 53192aa9fd39924388ea5b791bfecebd | Random open + Generate -> output
+PROF_IDLE | (log) | [prof] n=60 desk=758us win=34994us task=3us status=3us menu=1us cur=56us swap=34161us avg=69980us rtc=43
+[prof] n=60 desk=12us win=36232us task=3us status=3us menu=1us cur=57us swap=33416us avg=69729us rtc=44
+[prof] n=60 desk=12us win=34244us task=2us status=2us menu=1us cur=64us swap=35454us avg=69

@@ -1,0 +1,92 @@
+Exception in thread Thread-60 (_readerthread):
+Traceback (most recent call last):
+  File "D:\APP\AI\Marvis\Marvis\MarvisAgent\1.0.1100.553\runtime\python311\Lib\threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "D:\APP\AI\Marvis\Marvis\MarvisAgent\1.0.1100.553\runtime\python311\Lib\threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "D:\APP\AI\Marvis\Marvis\MarvisAgent\1.0.1100.553\runtime\python311\Lib\subprocess.py", line 1597, in _readerthread
+    buffer.append(fh.read())
+                  ^^^^^^^^^
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xa2 in position 529: illegal multibyte sequence
+==================================================
+EpochOS Build (two-stage boot + GUI + ring3)
+==================================================
+[1/4] Assembling bootloaders...
+>> E:\Assets\操作系统\工具\bin\nasm.exe -f bin C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\boot\boot0.asm -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\boot0.bin
+>> E:\Assets\操作系统\工具\bin\nasm.exe -f bin C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\boot\boot2.asm -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\boot2.bin
+[1.5] Assembling ring3 user test program...
+>> E:\Assets\操作系统\工具\bin\nasm.exe -f bin C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\ring3_test.asm -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\ring3_test.bin
+[ring3] test program 14 bytes -> ring3_test_bin.h
+[1.6] Building ELF user test programs (epoch-libc)...
+>> E:\Assets\操作系统\工具\bin\nasm.exe -f elf32 C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\user\hello_elf.asm -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\hello_elf.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-ld.exe -m elf_i386 -N -T C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\user\elf32.ld C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\hello_elf.o -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\hello_elf
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\user\hello_c.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\hello_c.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-ld.exe -m elf_i386 -N -T C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\user\elf32.ld C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\hello_c.o -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\hello_c
+[elf] hello_elf: OK (696 bytes, ET_EXEC EM_386)
+[elf] hello_c: OK (1112 bytes, ET_EXEC EM_386)
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\user\crt0.s -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\crt0.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -Os -ffunction-sections -fdata-sections -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\user\epoch.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\epoch.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -Os -ffunction-sections -fdata-sections -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\user\argecho.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\argecho.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-ld.exe -m elf_i386 -N --gc-sections -T C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\user\elf32.ld C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\crt0.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\epoch.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\argecho.o -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\argecho
+[elf] argecho: OK (1744 bytes, ET_EXEC EM_386)
+[elf] argecho: fits ramfs (1744/4096 B)
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -Os -ffunction-sections -fdata-sections -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\user\calc.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\calc.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-ld.exe -m elf_i386 -N --gc-sections -T C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\user\elf32.ld C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\crt0.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\epoch.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\calc.o -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\calc
+[elf] calc: OK (1992 bytes, ET_EXEC EM_386)
+[elf] calc: fits ramfs (1992/4096 B)
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -Os -ffunction-sections -fdata-sections -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\user\fileio.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\fileio.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-ld.exe -m elf_i386 -N --gc-sections -T C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\user\elf32.ld C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\crt0.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\epoch.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\fileio.o -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\fileio
+[elf] fileio: OK (4028 bytes, ET_EXEC EM_386)
+[elf] fileio: fits ramfs (4028/4096 B)
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -Os -ffunction-sections -fdata-sections -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\user\fib.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\fib.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-ld.exe -m elf_i386 -N --gc-sections -T C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\user\elf32.ld C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\crt0.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\epoch.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\fib.o -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\fib
+[elf] fib: OK (2168 bytes, ET_EXEC EM_386)
+[elf] fib: fits ramfs (2168/4096 B)
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -Os -ffunction-sections -fdata-sections -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\user\cp.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\cp.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-ld.exe -m elf_i386 -N --gc-sections -T C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\user\elf32.ld C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\crt0.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\epoch.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\cp.o -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\cp
+[elf] cp: OK (3552 bytes, ET_EXEC EM_386)
+[elf] cp: fits ramfs (3552/4096 B)
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -Os -ffunction-sections -fdata-sections -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\user\strtest.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\strtest.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-ld.exe -m elf_i386 -N --gc-sections -T C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\user\elf32.ld C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\crt0.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\epoch.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\strtest.o -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\strtest
+[elf] strtest: OK (3712 bytes, ET_EXEC EM_386)
+[elf] strtest: fits ramfs (3712/4096 B)
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -Os -ffunction-sections -fdata-sections -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\user\syscheck.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\syscheck.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-ld.exe -m elf_i386 -N --gc-sections -T C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\user\elf32.ld C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\crt0.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\epoch.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\syscheck.o -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\syscheck
+[elf] syscheck: OK (2964 bytes, ET_EXEC EM_386)
+[elf] syscheck: fits ramfs (2964/4096 B)
+[2/4] Compiling kernel...
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\ata.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\ata.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\cmos.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\cmos.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\elf.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\elf.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\fs.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\fs.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\gdt.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\gdt.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\gfx.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\gfx.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\gui.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\gui.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\icons.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\icons.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\interrupts.S -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\interrupts_asm.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\interrupts.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\interrupts.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\kernel.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\keyboard.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\keyboard.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\mm.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\mm.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\mouse.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\mouse.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\paging.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\paging.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\serial.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\serial.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\shell.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\shell.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\speaker.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\speaker.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\string.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\string.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\syscall.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\syscall.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\task.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\task.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\timer.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\timer.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\vga.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\vga.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-gcc.exe -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -nostdlib -c C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\wallpaper.c -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\wallpaper.o
+[3/4] Linking kernel...
+>> E:\Assets\操作系统\工具\bin\i686-elf-ld.exe -T C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\linker.ld -o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel.elf C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\ata.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\cmos.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\elf.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\fs.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\gdt.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\gfx.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\gui.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\icons.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\interrupts_asm.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\interrupts.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\keyboard.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\mm.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\mouse.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\paging.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\serial.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\shell.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\speaker.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\string.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\syscall.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\task.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\timer.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\vga.o C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\wallpaper.o
+>> E:\Assets\操作系统\工具\bin\i686-elf-objcopy.exe -O binary --only-section=.text --only-section=.rodata --only-section=.data C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel.elf C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel.bin
+[4/4] Creating disk image...
+[wall] 4 wallpapers embedded @LBA 1600+ (2813 sectors each)
+
+Build OK! boot0=512 boot2=16384 kernel=317364
+Image: E:\Assets\操作系统\EpochOS\build\epochos.img (16 MB, -hda)
+
+Run with QEMU (q35 必需, 规避 11.1 i440fx 显示表面刷新花屏; 附加 piix3-ide 供内核 IDE PIO 读盘):
+  "E:\Assets\操作系统\工具\bin\qemu-system-i386.exe" -machine q35 -vga std -drive file="E:\Assets\操作系统\EpochOS\build\epochos.img",format=raw,if=none,id=disk -device piix3-ide,id=ide -device ide-hd,drive=disk,bus=ide.0 -display sdl

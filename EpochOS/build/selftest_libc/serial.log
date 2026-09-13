@@ -1,0 +1,340 @@
+[wall] chunk ok lba=7866 remain=2173
+[wall] chunk ok lba=7994 remain=2045
+[wall] chunk ok lba=8122 remain=1917
+[wall] chunk ok lba=8250 remain=1789
+[wall] chunk ok lba=8378 remain=1661
+[wall] chunk ok lba=8506 remain=1533
+[wall] chunk ok lba=8634 remain=1405
+[wall] chunk ok lba=8762 remain=1277
+[wall] chunk ok lba=8890 remain=1149
+[wall] chunk ok lba=9018 remain=1021
+[wall] chunk ok lba=9146 remain=893
+[wall] chunk ok lba=9274 remain=765
+[wall] chunk ok lba=9402 remain=637
+[wall] chunk ok lba=9530 remain=509
+[wall] chunk ok lba=9658 remain=381
+[wall] chunk ok lba=9786 remain=253
+[wall] chunk ok lba=9914 remain=125
+[wall] wall 2 done
+[wall] loading 3 buf=837000 lba=10039
+[wall] chunk ok lba=10039 remain=2813
+[wall] chunk ok lba=10167 remain=2685
+[wall] chunk ok lba=10295 remain=2557
+[wall] chunk ok lba=10423 remain=2429
+[wall] chunk ok lba=10551 remain=2301
+[wall] chunk ok lba=10679 remain=2173
+[wall] chunk ok lba=10807 remain=2045
+[wall] chunk ok lba=10935 remain=1917
+[wall] chunk ok lba=11063 remain=1789
+[wall] chunk ok lba=11191 remain=1661
+[wall] chunk ok lba=11319 remain=1533
+[wall] chunk ok lba=11447 remain=1405
+[wall] chunk ok lba=11575 remain=1277
+[wall] chunk ok lba=11703 remain=1149
+[wall] chunk ok lba=11831 remain=1021
+[wall] chunk ok lba=11959 remain=893
+[wall] chunk ok lba=12087 remain=765
+[wall] chunk ok lba=12215 remain=637
+[wall] chunk ok lba=12343 remain=509
+[wall] chunk ok lba=12471 remain=381
+[wall] chunk ok lba=12599 remain=253
+[wall] chunk ok lba=12727 remain=125
+[wall] wall 3 done
+[wall] 4 wallpapers loaded, 1406 KB each
+[dbg] wallpaper_init=1
+[gfx] VBE framebuffer ready
+[gfx] 800x600x32 pitch=3200 lfb=0xFD000000
+[dbg] VBE id=B0C5 xres=800 yres=600 bpp=32 enable=41 virt=800 xoff=0 yoff=0
+[dbg] keep VBE mode (set by boot2), enable=0x41 LFB=on
+[gfx] backbuffer 0x997000 (1920000 bytes)
+[bw] build32 idx=0 addr=B6C000 w=1920000
+[dbg] after backbuf ok
+[test] ready
+[swap] n=1 area=480000 drawbase=0x997000 back=0x997000
+[desk] cache built 0xD41000
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=28us win=10us task=828us status=88us menu=1us cur=58us swap=1663us avg=2683us rtc=53 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=5us win=2us task=1us status=1us menu=0us cur=56us swap=103us avg=173us rtc=53 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=6us win=3us task=1us status=1us menu=0us cur=61us swap=97us avg=174us rtc=54 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=5us win=2us task=0us status=3us menu=1us cur=56us swap=100us avg=175us rtc=54 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=6us win=751us task=1us status=1us menu=0us cur=55us swap=853us avg=1674us rtc=54 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=754us win=2us task=0us status=1us menu=0us cur=52us swap=1591us avg=2406us rtc=54 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=6us win=3us task=1us status=1us menu=1us cur=59us swap=858us avg=933us rtc=55 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=6us win=3us task=750us status=1us menu=0us cur=59us swap=93us avg=918us rtc=55 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=8us win=3us task=1us status=1us menu=1us cur=69us swap=1619us avg=1707us rtc=55 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[test] opened type=0
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=59us task=45us status=1us menu=2us cur=77us swap=118us avg=320us rtc=56 rw=1 rwt=0
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=5us task=1us status=2us menu=2us cur=90us swap=126us avg=243us rtc=56 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=1us status=1us menu=1us cur=77us swap=894us avg=996us rtc=57 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=9us win=5us task=1us status=1us menu=1us cur=72us swap=1639us avg=1735us rtc=57 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=8us win=4us task=1us status=1us menu=1us cur=814us swap=854us avg=1689us rtc=57 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=757us win=5us task=1us status=1us menu=1us cur=815us swap=853us avg=2440us rtc=58 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=9us win=5us task=2us status=2us menu=1us cur=75us swap=879us avg=977us rtc=58 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=9us win=5us task=1us status=1us menu=1us cur=1566us swap=113us avg=1701us rtc=58 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=9us win=5us task=1us status=1us menu=1us cur=72us swap=114us avg=209us rtc=59 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=6us task=2us status=2us menu=1us cur=830us swap=134us avg=993us rtc=59 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[test] inject=31
+[swap] n=3 area=554613 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=12960us task=3us status=2us menu=2us cur=815us swap=12579us avg=26378us rtc=0 rw=26 rwt=0
+[proc] create pid=2 'argecho' ring=3 entry=0x8048000 ustack=0x40000000 esp=0x40000FC4 pd=0xF18000 elf=1744B pages=3 argc=4
+[elf] loaded '/bin/argecho' name='argecho' entry=0x8048000 slot=1
+[shell] elf: slot=1 pid=2 loaded, waiting output...
+argecho: pid ok, argc=4
+  argv[0]="argecho"
+  argv[1]="alpha"
+  argv[2]="beta"
+  argv[3]="42"
+argecho: done (return 4)
+[syscall] pid=2 exit(4) ring3-ok
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=3557us task=2us status=19us menu=1us cur=71us swap=2814us avg=6481us rtc=0 rw=5 rwt=0
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=1us status=1us menu=1us cur=72us swap=114us avg=210us rtc=1 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=1us status=2us menu=1us cur=74us swap=117us avg=217us rtc=1 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=5us task=1us status=2us menu=1us cur=64us swap=1599us avg=1690us rtc=1 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=14us win=6us task=1us status=2us menu=1us cur=826us swap=1610us avg=2466us rtc=2 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=5us task=1us status=2us menu=1us cur=816us swap=108us avg=951us rtc=2 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[test] inject=20
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[task] reaped pid=2 'argecho' (3 pages freed)
+[proc] create pid=3 'calc' ring=3 entry=0x8048000 ustack=0x40000000 esp=0x40000FD0 pd=0xF16000 elf=1992B pages=3 argc=4
+[elf] loaded '/bin/calc' name='calc' entry=0x8048000 slot=1
+[shell] elf: slot=1 pid=3 loaded, waiting output...
+calc: 6 * 7 = 42
+[syscall] pid=3 exit(42) ring3-ok
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=15us win=12052us task=3us status=3us menu=3us cur=810us swap=9160us avg=22051us rtc=3 rw=20 rwt=0
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=13us win=5us task=1us status=1us menu=3us cur=812us swap=1588us avg=2429us rtc=3 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=15us win=6us task=1us status=2us menu=1us cur=71us swap=124us avg=226us rtc=3 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=13us win=6us task=2us status=6us menu=2us cur=70us swap=868us avg=972us rtc=4 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=14us win=6us task=1us status=2us menu=1us cur=820us swap=124us avg=972us rtc=4 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=16us win=6us task=2us status=2us menu=2us cur=821us swap=907us avg=1762us rtc=4 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=761us win=8us task=1us status=6us menu=5us cur=76us swap=862us avg=1723us rtc=5 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[test] inject=16
+[swap] n=3 area=554613 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=777us win=6478us task=3us status=2us menu=2us cur=66us swap=6318us avg=13651us rtc=5 rw=10 rwt=0
+[task] reaped pid=3 'calc' (3 pages freed)
+[proc] create pid=4 'fileio' ring=3 entry=0x8048000 ustack=0x40000000 esp=0x40000FE0 pd=0xF16000 elf=4028B pages=3 argc=1
+[elf] loaded '/bin/fileio' name='fileio' entry=0x8048000 slot=1
+[shell] elf: slot=1 pid=4 loaded, waiting output...
+fileio: start
+fileio: welcome.txt fd=3 read=159 bytes
+fileio: head="Welcome to EpochOS v1.1 GUI!
+
+This is the graphical edition with:
+ - VBE 800x600x32 desktop
+ - Window manager (terminal/files/about/help)
+ - Mouse + keyboard i
+fileio: lseek -> 0, re-read 8 bytes: Welcome 
+fileio: hello.txt append write=15 bytes
+fileio: hello.txt now (42 bytes): Hello, world from EpochOS!
+[epoch-libc v4]
+fileio: heap brk0 test, malloc chain:
+fileio:   a1=80490c0 a2=80490f0 a3=8049300
+fileio:   a1[0]=A a2[0]=B a3[2046]=C
+fileio:   after free(512) malloc(400) -> a4=80490f0 (reuse=1)
+fileio: done
+[syscall] pid=4 exit(0) ring3-ok
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=2892us task=2us status=2us menu=1us cur=69us swap=2898us avg=5882us rtc=6 rw=6 rwt=0
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=13us win=5us task=1us status=1us menu=2us cur=70us swap=105us avg=203us rtc=6 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=5us task=1us status=2us menu=1us cur=69us swap=134us avg=230us rtc=6 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=23us win=6us task=1us status=15us menu=2us cur=70us swap=115us avg=237us rtc=7 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=15us win=6us task=1us status=3us menu=1us cur=75us swap=1603us avg=1711us rtc=7 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=2us menu=1us cur=67us swap=867us avg=961us rtc=7 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=19us win=10us task=3us status=3us menu=2us cur=98us swap=131us avg=270us rtc=8 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[test] inject=17
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[task] reaped pid=4 'fileio' (4 pages freed)
+[proc] create pid=5 'hello_c' ring=3 entry=0x80480E3 ustack=0x40000000 esp=0x40000FE0 pd=0xF16000 elf=1112Bhello_c: C static ELF entry ok, brk0=08049000
+read(24)=00000018
+head=Welcome to EpochOS v1.1 
+[syscall] pid=5 exit(7) ring3-ok
+ pages=3 argc=1
+[elf] loaded '/bin/hello_c' name='hello_c' entry=0x80480E3 slot=1
+[shell] elf: slot=1 pid=5 loaded, waiting output...
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=15us win=7644us task=3us status=3us menu=2us cur=826us swap=8126us avg=16625us rtc=8 rw=17 rwt=0
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=16us win=7us task=2us status=4us menu=2us cur=103us swap=1643us avg=1783us rtc=9 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=2us status=1us menu=1us cur=825us swap=118us avg=967us rtc=9 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=23us win=9us task=3us status=3us menu=2us cur=100us swap=910us avg=1055us rtc=10 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=6us task=2us status=3us menu=1us cur=832us swap=125us avg=986us rtc=10 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=6us task=2us status=2us menu=1us cur=831us swap=1640us avg=2501us rtc=10 rw=0 rwt=-1

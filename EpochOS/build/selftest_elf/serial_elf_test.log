@@ -1,0 +1,1127 @@
+[wall] chunk ok lba=7354 remain=2685
+[wall] chunk ok lba=7482 remain=2557
+[wall] chunk ok lba=7610 remain=2429
+[wall] chunk ok lba=7738 remain=2301
+[wall] chunk ok lba=7866 remain=2173
+[wall] chunk ok lba=7994 remain=2045
+[wall] chunk ok lba=8122 remain=1917
+[wall] chunk ok lba=8250 remain=1789
+[wall] chunk ok lba=8378 remain=1661
+[wall] chunk ok lba=8506 remain=1533
+[wall] chunk ok lba=8634 remain=1405
+[wall] chunk ok lba=8762 remain=1277
+[wall] chunk ok lba=8890 remain=1149
+[wall] chunk ok lba=9018 remain=1021
+[wall] chunk ok lba=9146 remain=893
+[wall] chunk ok lba=9274 remain=765
+[wall] chunk ok lba=9402 remain=637
+[wall] chunk ok lba=9530 remain=509
+[wall] chunk ok lba=9658 remain=381
+[wall] chunk ok lba=9786 remain=253
+[wall] chunk ok lba=9914 remain=125
+[wall] wall 2 done
+[wall] loading 3 buf=837000 lba=10039
+[wall] chunk ok lba=10039 remain=2813
+[wall] chunk ok lba=10167 remain=2685
+[wall] chunk ok lba=10295 remain=2557
+[wall] chunk ok lba=10423 remain=2429
+[wall] chunk ok lba=10551 remain=2301
+[wall] chunk ok lba=10679 remain=2173
+[wall] chunk ok lba=10807 remain=2045
+[wall] chunk ok lba=10935 remain=1917
+[wall] chunk ok lba=11063 remain=1789
+[wall] chunk ok lba=11191 remain=1661
+[wall] chunk ok lba=11319 remain=1533
+[wall] chunk ok lba=11447 remain=1405
+[wall] chunk ok lba=11575 remain=1277
+[wall] chunk ok lba=11703 remain=1149
+[wall] chunk ok lba=11831 remain=1021
+[wall] chunk ok lba=11959 remain=893
+[wall] chunk ok lba=12087 remain=765
+[wall] chunk ok lba=12215 remain=637
+[wall] chunk ok lba=12343 remain=509
+[wall] chunk ok lba=12471 remain=381
+[wall] chunk ok lba=12599 remain=253
+[wall] chunk ok lba=12727 remain=125
+[wall] wall 3 done
+[wall] 4 wallpapers loaded, 1406 KB each
+[dbg] wallpaper_init=1
+[gfx] VBE framebuffer ready
+[gfx] 800x600x32 pitch=3200 lfb=0xFD000000
+[dbg] VBE id=B0C5 xres=800 yres=600 bpp=32 enable=41 virt=800 xoff=0 yoff=0
+[dbg] keep VBE mode (set by boot2), enable=0x41 LFB=on
+[gfx] backbuffer 0x997000 (1920000 bytes)
+[bw] build32 idx=0 addr=B6C000 w=1920000
+[dbg] after backbuf ok
+[test] ready
+[swap] n=1 area=480000 drawbase=0x997000 back=0x997000
+[test] opened type=0
+[desk] cache built 0xD41000
+[test] inject=19
+[swap] n=3 area=554613 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[proc] create pid=2 'hello_elf' ring=3 entry=0x8048000 ustack=0x40000000 esp=0x40001FDC pd=0xF18000 elf=696B pages=4
+[elf] loaded '/bin/hello_elf' name='hello_elf' entry=0x8048000 slot=1
+[shell] elf: slot=1 pid=2 loaded, waiting output...
+hello_elf: write syscall OK from EpochOS ring3!
+[syscall] pid=2 exit(42) ring3-ok
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=874us win=12214us task=835us status=72us menu=3us cur=816us swap=11873us avg=26692us rtc=4 rw=20 rwt=0
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=13us win=8us task=3us status=3us menu=2us cur=822us swap=121us avg=977us rtc=5 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=2us menu=1us cur=68us swap=865us avg=960us rtc=5 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=760us win=5us task=2us status=2us menu=1us cur=67us swap=125us avg=966us rtc=5 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=13us win=5us task=2us status=1us menu=1us cur=815us swap=1600us avg=2442us rtc=6 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=14us win=5us task=2us status=3us menu=1us cur=69us swap=106us avg=206us rtc=6 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=2us status=2us menu=1us cur=64us swap=870us avg=960us rtc=6 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=9us win=5us task=1us status=1us menu=1us cur=59us swap=848us avg=931us rtc=7 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=9us win=5us task=1us status=1us menu=1us cur=65us swap=872us avg=959us rtc=7 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=5us task=2us status=2us menu=5us cur=77us swap=113us avg=222us rtc=7 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=2us menu=1us cur=63us swap=865us avg=954us rtc=8 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=2us status=1us menu=1us cur=68us swap=115us avg=207us rtc=8 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=5us task=2us status=2us menu=1us cur=65us swap=98us avg=189us rtc=8 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=761us win=5us task=2us status=2us menu=1us cur=65us swap=862us avg=1703us rtc=8 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=15us win=5us task=2us status=750us menu=2us cur=811us swap=2344us avg=3935us rtc=9 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=2us menu=1us cur=821us swap=111us avg=958us rtc=9 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=17us win=5us task=2us status=2us menu=1us cur=1569us swap=110us avg=1713us rtc=9 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=5us task=2us status=1us menu=1us cur=817us swap=123us avg=967us rtc=10 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=1us status=1us menu=1us cur=62us swap=2369us avg=2454us rtc=10 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=763us win=5us task=2us status=2us menu=750us cur=67us swap=104us avg=1698us rtc=10 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=2us menu=1us cur=63us swap=102us avg=191us rtc=11 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=2us menu=1us cur=819us swap=847us avg=1692us rtc=11 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=14us win=5us task=2us status=1us menu=1us cur=1576us swap=110us avg=1713us rtc=11 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=14us win=6us task=3us status=3us menu=1us cur=76us swap=113us avg=222us rtc=11 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=2us status=2us menu=1us cur=70us swap=108us avg=205us rtc=12 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=15us win=5us task=1us status=1us menu=1us cur=820us swap=857us avg=1707us rtc=12 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=13us win=6us task=2us status=2us menu=1us cur=82us swap=854us avg=965us rtc=12 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=13us win=5us task=2us status=2us menu=1us cur=816us swap=860us avg=1706us rtc=13 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=14us win=5us task=750us status=2us menu=1us cur=817us swap=107us avg=1701us rtc=13 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=13us win=5us task=1us status=2us menu=1us cur=817us swap=124us avg=967us rtc=13 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=8us win=5us task=1us status=1us menu=1us cur=59us swap=843us avg=924us rtc=14 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=13us win=5us task=2us status=1us menu=1us cur=67us swap=103us avg=199us rtc=14 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=761us win=5us task=2us status=750us menu=1us cur=817us swap=118us avg=2461us rtc=14 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=14us win=5us task=2us status=1us menu=5us cur=63us swap=859us avg=955us rtc=15 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=2us status=2us menu=1us cur=1576us swap=864us avg=2467us rtc=15 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=1us status=1us menu=1us cur=62us swap=122us avg=207us rtc=15 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=16us win=5us task=2us status=2us menu=1us cur=65us swap=110us avg=207us rtc=15 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=2us menu=1us cur=74us swap=1626us avg=1727us rtc=16 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=2us menu=2us cur=813us swap=875us avg=1716us rtc=16 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=4us task=2us status=1us menu=1us cur=812us swap=107us avg=943us rtc=16 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=1us status=2us menu=1us cur=812us swap=845us avg=1682us rtc=17 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=2us menu=1us cur=67us swap=1617us avg=1712us rtc=17 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=15us win=5us task=2us status=2us menu=1us cur=819us swap=872us avg=1723us rtc=17 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=24us win=5us task=2us status=1us menu=1us cur=68us swap=858us avg=964us rtc=18 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=1us status=2us menu=1us cur=74us swap=129us avg=231us rtc=18 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=1us status=2us menu=1us cur=811us swap=130us avg=966us rtc=18 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=25us win=5us task=2us status=2us menu=1us cur=816us swap=872us avg=1728us rtc=19 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=1us menu=1us cur=66us swap=848us avg=938us rtc=19 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=5us task=2us status=2us menu=1us cur=68us swap=95us avg=191us rtc=19 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=1us status=2us menu=1us cur=62us swap=874us avg=960us rtc=19 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=13us win=5us task=2us status=1us menu=1us cur=62us swap=846us avg=936us rtc=20 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=1us status=2us menu=1us cur=62us swap=1619us avg=1706us rtc=20 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=2us menu=1us cur=65us swap=848us avg=941us rtc=20 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=9us win=4us task=1us status=1us menu=1us cur=60us swap=1589us avg=1670us rtc=21 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=6us win=3us task=1us status=1us menu=1us cur=1552us swap=103us avg=1672us rtc=21 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=19us win=760us task=4us status=13us menu=3us cur=838us swap=869us avg=2508us rtc=21 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=2us menu=1us cur=70us swap=106us avg=204us rtc=22 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=14us win=5us task=2us status=2us menu=1us cur=64us swap=848us avg=941us rtc=22 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=2us status=2us menu=1us cur=826us swap=114us avg=967us rtc=22 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=9us win=5us task=1us status=1us menu=1us cur=809us swap=100us avg=931us rtc=22 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=5us task=1us status=1us menu=1us cur=62us swap=1623us avg=1710us rtc=23 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=4us status=2us menu=1us cur=65us swap=846us avg=937us rtc=23 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=13us win=6us task=2us status=2us menu=1us cur=67us swap=103us avg=200us rtc=23 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=14us win=5us task=2us status=1us menu=1us cur=67us swap=104us avg=199us rtc=24 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=2us status=2us menu=1us cur=69us swap=112us avg=206us rtc=24 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=14us win=5us task=2us status=1us menu=1us cur=65us swap=1622us avg=1715us rtc=24 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=18us win=5us task=2us status=2us menu=1us cur=812us swap=98us avg=945us rtc=25 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=1us menu=1us cur=62us swap=103us avg=191us rtc=25 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=14us win=5us task=2us status=2us menu=1us cur=1563us swap=864us avg=2457us rtc=25 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=4us task=2us status=1us menu=1us cur=64us swap=103us avg=193us rtc=25 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=1us menu=1us cur=832us swap=96us avg=953us rtc=26 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=1us status=2us menu=1us cur=60us swap=1589us avg=1676us rtc=26 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=14us win=6us task=3us status=2us menu=2us cur=71us swap=119us avg=222us rtc=26 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=2us status=1us menu=1us cur=814us swap=3856us avg=4695us rtc=27 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=13us win=5us task=2us status=2us menu=1us cur=64us swap=863us avg=954us rtc=27 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=760us win=5us task=2us status=7us menu=10us cur=70us swap=108us avg=968us rtc=27 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=1us menu=1us cur=62us swap=100us avg=186us rtc=28 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=9us win=5us task=2us status=1us menu=1us cur=1562us swap=101us avg=1686us rtc=28 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=15us win=7us task=2us status=2us menu=1us cur=66us swap=107us avg=204us rtc=28 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=4us task=1us status=1us menu=1us cur=62us swap=120us avg=206us rtc=28 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=8us win=3us task=1us status=1us menu=1us cur=56us swap=108us avg=184us rtc=29 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=1us status=1us menu=1us cur=1559us swap=109us avg=1693us rtc=29 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=25us win=5us task=2us status=2us menu=1us cur=73us swap=863us avg=977us rtc=29 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=4us task=1us status=1us menu=1us cur=59us swap=854us avg=935us rtc=30 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=4us task=1us status=1us menu=1us cur=58us swap=87us avg=168us rtc=30 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=758us win=5us task=1us status=2us menu=1us cur=61us swap=124us avg=957us rtc=30 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=1us status=1us menu=1us cur=812us swap=847us avg=1682us rtc=30 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=2us status=1us menu=1us cur=812us swap=102us avg=937us rtc=31 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=4us task=1us status=1us menu=1us cur=59us swap=93us avg=175us rtc=31 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=8us win=4us task=1us status=1us menu=2us cur=66us swap=844us avg=931us rtc=31 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=4us task=1us status=1us menu=1us cur=61us swap=102us avg=186us rtc=32 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=1us status=1us menu=1us cur=812us swap=103us avg=939us rtc=32 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=9us win=6us task=2us status=1us menu=1us cur=59us swap=857us avg=941us rtc=32 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=7us win=3us task=1us status=1us menu=0us cur=806us swap=105us avg=930us rtc=33 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=9us win=4us task=1us status=1us menu=1us cur=64us swap=1603us avg=1688us rtc=33 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=2us status=2us menu=2us cur=78us swap=853us avg=957us rtc=33 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=13us win=5us task=2us status=3us menu=2us cur=70us swap=98us avg=196us rtc=33 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=2us status=7us menu=1us cur=64us swap=102us avg=196us rtc=34 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=759us win=5us task=1us status=2us menu=1us cur=810us swap=93us avg=1676us rtc=34 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=2us menu=1us cur=64us swap=866us avg=956us rtc=34 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=4us task=1us status=1us menu=1us cur=63us swap=104us avg=191us rtc=35 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=5us task=2us status=1us menu=1us cur=1566us swap=104us avg=1697us rtc=35 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=5us task=2us status=2us menu=1us cur=70us swap=124us avg=223us rtc=35 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=765us win=755us task=3us status=2us menu=2us cur=1569us swap=1638us avg=4738us rtc=36 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=1us status=9us menu=1us cur=63us swap=869us avg=966us rtc=36 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=8us task=4us status=2us menu=1us cur=72us swap=862us avg=964us rtc=36 rw=0 rwt=-1
+[test] inject=17
+[swap] n=3 area=554613 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[task] reaped pid=2 'hello_elf' (4 pages freed)
+[proc] create pid=3 'hello_c' ring=3 entry=0x80480E3 ustack=0x40000000 esp=0x40001FE0 pd=0xF16000 elf=1112B pages=4
+[elf] loaded '/bin/hello_c' name='hello_c' entry=0x80480E3 slot=1
+[shell] elf: slot=1 pid=3 loaded, waiting output...
+hello_c: C static ELF entry ok, brk0=08049000
+read(24)=00000018
+head=Welcome to EpochOS v1.1 
+[syscall] pid=3 exit(7) ring3-ok
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=9311us task=4us status=3us menu=2us cur=77us swap=8036us avg=17447us rtc=37 rw=17 rwt=0
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=2us menu=1us cur=59us swap=94us avg=179us rtc=37 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=2us status=2us menu=1us cur=60us swap=113us avg=196us rtc=37 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=5us task=1us status=1us menu=1us cur=1562us swap=98us avg=1686us rtc=38 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=6us task=2us status=2us menu=1us cur=65us swap=114us avg=206us rtc=38 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=15us win=6us task=2us status=3us menu=1us cur=73us swap=102us avg=208us rtc=38 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=15us win=5us task=2us status=1us menu=1us cur=62us swap=108us avg=199us rtc=39 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=13us win=5us task=1us status=1us menu=8us cur=62us swap=3123us avg=3218us rtc=39 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=8us task=1us status=1us menu=1us cur=811us swap=118us avg=956us rtc=39 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=760us win=5us task=1us status=1us menu=1us cur=57us swap=105us avg=938us rtc=39 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=9us win=6us task=1us status=1us menu=1us cur=61us swap=110us avg=195us rtc=40 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=5us task=2us status=2us menu=1us cur=822us swap=127us avg=977us rtc=40 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=760us win=5us task=2us status=2us menu=1us cur=64us swap=101us avg=940us rtc=40 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=7us task=5us status=1us menu=2us cur=67us swap=105us avg=205us rtc=41 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=9us win=4us task=1us status=1us menu=1us cur=63us swap=122us avg=206us rtc=41 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=5us task=2us status=2us menu=1us cur=68us swap=858us avg=955us rtc=41 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=760us win=5us task=2us status=2us menu=1us cur=67us swap=124us avg=967us rtc=41 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=1us status=2us menu=1us cur=62us swap=103us avg=189us rtc=42 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=14us win=5us task=5us status=2us menu=1us cur=69us swap=859us avg=961us rtc=42 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=5us task=2us status=2us menu=1us cur=67us swap=109us avg=204us rtc=42 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=1us status=2us menu=1us cur=814us swap=104us avg=945us rtc=43 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=4us task=1us status=1us menu=1us cur=806us swap=103us avg=932us rtc=43 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=4us task=2us status=2us menu=2us cur=62us swap=103us avg=192us rtc=43 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=2us status=2us menu=1us cur=815us swap=854us avg=1695us rtc=44 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=1us status=1us menu=1us cur=816us swap=101us avg=941us rtc=44 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=760us win=6us task=2us status=1us menu=1us cur=63us swap=848us avg=1687us rtc=44 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=14us win=5us task=2us status=2us menu=2us cur=63us swap=852us avg=946us rtc=44 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=2us menu=1us cur=71us swap=856us avg=954us rtc=45 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=14us win=5us task=2us status=2us menu=1us cur=63us swap=106us avg=198us rtc=45 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=2us status=2us menu=1us cur=812us swap=108us avg=946us rtc=45 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=2us status=2us menu=1us cur=63us swap=1594us avg=1682us rtc=46 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=763us win=5us task=2us status=2us menu=1us cur=72us swap=110us avg=961us rtc=46 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=1us status=1us menu=2us cur=59us swap=94us avg=178us rtc=46 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=1us status=1us menu=1us cur=61us swap=95us avg=178us rtc=46 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=4us task=1us status=1us menu=1us cur=58us swap=854us avg=937us rtc=47 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=1us menu=1us cur=62us swap=843us avg=929us rtc=47 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=4us task=2us status=1us menu=2us cur=1556us swap=90us avg=1671us rtc=47 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=13us win=5us task=2us status=2us menu=2us cur=825us swap=108us avg=962us rtc=48 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=1us menu=1us cur=63us swap=108us avg=197us rtc=48 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=15us win=5us task=1us status=2us menu=2us cur=76us swap=117us avg=224us rtc=48 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=759us win=5us task=2us status=1us menu=1us cur=59us swap=843us avg=1676us rtc=49 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=15us win=6us task=2us status=2us menu=1us cur=1560us swap=105us avg=1696us rtc=49 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=1us status=2us menu=1us cur=1561us swap=858us avg=2443us rtc=49 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=2us status=1us menu=1us cur=825us swap=2357us avg=3207us rtc=49 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=4us task=2us status=1us menu=1us cur=62us swap=123us avg=207us rtc=50 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=750us status=2us menu=1us cur=64us swap=122us avg=960us rtc=50 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=15us win=5us task=2us status=5us menu=2us cur=62us swap=1593us avg=1689us rtc=50 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=4us task=1us status=1us menu=0us cur=63us swap=107us avg=192us rtc=51 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=5us win=3us task=1us status=1us menu=0us cur=56us swap=848us avg=920us rtc=51 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=18us win=8us task=3us status=1500us menu=2us cur=82us swap=128us avg=1745us rtc=51 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=1us status=2us menu=1us cur=64us swap=871us avg=961us rtc=52 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=2us status=2us menu=1us cur=107us swap=1617us avg=1749us rtc=52 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=14us win=5us task=2us status=2us menu=1us cur=1561us swap=848us avg=2437us rtc=52 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=6us task=2us status=2us menu=1us cur=74us swap=123us avg=227us rtc=52 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=2us status=1us menu=1us cur=62us swap=111us avg=198us rtc=53 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=16us win=9us task=2us status=2us menu=1us cur=65us swap=857us avg=957us rtc=53 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=15us win=5us task=2us status=2us menu=2us cur=71us swap=854us avg=957us rtc=53 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=750us status=1us menu=1us cur=77us swap=867us avg=1717us rtc=54 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=19us win=6us task=2us status=3us menu=1us cur=818us swap=104us avg=958us rtc=54 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=753us task=1us status=2us menu=1us cur=62us swap=852us avg=1687us rtc=54 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=760us win=5us task=1us status=1us menu=1us cur=810us swap=1601us avg=3185us rtc=55 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=2us menu=1us cur=67us swap=104us avg=199us rtc=55 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=9us win=4us task=1us status=1us menu=1us cur=64us swap=1607us avg=1692us rtc=55 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=14us win=4us task=1us status=1us menu=1us cur=811us swap=101us avg=938us rtc=56 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=1us status=2us menu=1us cur=63us swap=95us avg=186us rtc=56 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=3us menu=1us cur=64us swap=1603us avg=1696us rtc=56 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=4us task=1us status=1us menu=1us cur=64us swap=847us avg=934us rtc=56 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=759us win=5us task=1us status=1us menu=1us cur=810us swap=109us avg=1691us rtc=57 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=1us menu=1us cur=66us swap=840us avg=932us rtc=57 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=5us task=2us status=4us menu=1us cur=65us swap=845us avg=939us rtc=57 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=1us status=2us menu=1us cur=68us swap=860us avg=952us rtc=58 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=4us task=1us status=1us menu=3us cur=58us swap=93us avg=176us rtc=58 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=763us win=6us task=2us status=2us menu=1us cur=69us swap=101us avg=951us rtc=58 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=13us win=5us task=2us status=2us menu=1us cur=72us swap=876us avg=977us rtc=58 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=9us win=4us task=1us status=1us menu=1us cur=57us swap=87us avg=165us rtc=59 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=9us win=5us task=2us status=1us menu=1us cur=811us swap=858us avg=1691us rtc=59 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=4us task=2us status=4us menu=1us cur=58us swap=93us avg=178us rtc=59 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=754us task=2us status=17us menu=1us cur=63us swap=852us avg=1705us rtc=0 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=5us task=2us status=2us menu=1us cur=75us swap=116us avg=217us rtc=0 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=2us status=12us menu=1us cur=62us swap=100us avg=199us rtc=0 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=4us status=1us menu=1us cur=805us swap=2342us avg=3171us rtc=0 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=2us status=1us menu=1us cur=810us swap=93us avg=927us rtc=1 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=5us task=2us status=750us menu=1us cur=64us swap=97us avg=937us rtc=1 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=752us menu=3us cur=814us swap=98us avg=1690us rtc=1 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=2us menu=1us cur=820us swap=857us avg=1704us rtc=2 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=1us status=1us menu=1us cur=62us swap=103us avg=187us rtc=2 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=17us win=754us task=2us status=1us menu=1us cur=62us swap=850us avg=1691us rtc=2 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=5us task=2us status=2us menu=1us cur=812us swap=113us avg=951us rtc=3 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=12us win=4us task=1us status=1us menu=1us cur=62us swap=1608us avg=1694us rtc=3 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=8us win=4us task=1us status=1us menu=0us cur=57us swap=1590us avg=1667us rtc=3 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=1us status=2us menu=0us cur=58us swap=857us avg=939us rtc=3 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=9us win=4us task=1us status=1us menu=1us cur=827us swap=863us avg=1713us rtc=4 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=3us status=2us menu=1us cur=67us swap=114us avg=210us rtc=4 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=13us win=5us task=2us status=750us menu=1us cur=74us swap=116us avg=968us rtc=4 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=13us win=5us task=2us status=2us menu=1us cur=816us swap=864us avg=1710us rtc=5 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=2us status=2us menu=1us cur=813us swap=103us avg=942us rtc=5 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=5us task=2us status=1us menu=1us cur=60us swap=100us avg=184us rtc=5 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=10us win=752us task=1us status=1us menu=1us cur=58us swap=93us avg=922us rtc=5 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=14us win=6us task=2us status=1us menu=1us cur=64us swap=118us avg=211us rtc=6 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=13us win=5us task=2us status=2us menu=2us cur=81us swap=861us avg=972us rtc=6 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=14us win=5us task=4us status=1us menu=1us cur=812us swap=102us avg=944us rtc=6 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=11us win=5us task=2us status=1us menu=2us cur=69us swap=875us avg=971us rtc=7 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=761us win=4us task=1us status=1us menu=1us cur=816us swap=1598us avg=3189us rtc=7 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[prof] n=60 desk=13us win=5us task=755us status=1us menu=1us cur=62us swap=855us avg=1698us rtc=7 rw=0 rwt=-1
+[swap] n=1 area=784 drawbase=0x997000 back=0x997000
+[g] mdx=0 mdy=0 bt=0 cur=400,300
+[

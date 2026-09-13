@@ -1,0 +1,5 @@
+WARNING: Image format was not specified for 'epochos.img' and probing guessed raw.
+         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
+         Specify the 'raw' format explicitly to remove the restrictions.
+rom: file bios-256k.bin       : error Failed to open file “E:\Assets\����ϵͳ\����\bin/share//bios-256k.bin”: Invalid argument
+qemu: could not load PC BIOS 'bios-256k.bin'

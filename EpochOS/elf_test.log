@@ -1,0 +1,73 @@
+[ok] 内核就绪, GUI 主循环运行中 (echo->pong 握手成功)
+
+--- argecho: 命令 'elf /bin/argecho hello 42'
+    进程创建=是  退出=是
+    | [proc] create pid=2 'argecho' ring=3 entry=0x8048000 ustack=0x40000000 esp=0x40000FCC pd=0x7C3000 elf=1744B pages=3 argc=3
+    | [elf] loaded '/bin/argecho' name='argecho' entry=0x8048000 slot=1
+    |   argv[1]="hello"
+    | [syscall] pid=2 exit(3) ring3-ok
+
+--- hello_c: 命令 'elf /bin/hello_c'
+    进程创建=是  退出=是
+    | [proc] create pid=3 'hello_c' ring=3 entry=0x80480E3 ustack=0x40000000 esp=0x40000FE0 pd=0x7C1000 elf=1112B pages=3 argc=1
+    | [elf] loaded '/bin/hello_c' name='hello_c' entry=0x80480E3 slot=1
+    | hello_c: C static ELF entry ok, brk0=08049000
+    | [syscall] pid=3 exit(7) ring3-ok
+    | [shell] elf: pid=3 'hello_c' exit_code=7
+
+--- fib: 命令 'elf /bin/fib'
+    进程创建=是  退出=是
+    | [task] reaped pid=3 'hello_c' (3 pages freed)
+    | [proc] create pid=4 'fib' ring=3 entry=0x8048000 ustack=0x40000000 esp=0x40000FE4 pd=0x7C1000 elf=2168B pages=3 argc=1
+    | [elf] loaded '/bin/fib' name='fib' entry=0x8048000 slot=1
+    | fib: pid=4 start
+    | fib: fib(0..19): 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181
+    | fib: primes(<=200): 2 3 5 7 11 13 17 19 23 29 31 37 ... total=46
+    | fib: sysinfo uptime=6s ram=127152K free=123080K procs=2 unit=1
+    | fib: done (pid=4, exit 0)
+    | [syscall] pid=4 exit(0) ring3-ok
+    | [shell] elf: pid=4 'fib' exit_code=0
+
+--- syscheck: 命令 'elf /bin/syscheck'
+    进程创建=是  退出=是  断言=通过
+    | [task] reaped pid=4 'fib' (3 pages freed)
+    | [proc] create pid=5 'syscheck' ring=3 entry=0x8048000 ustack=0x40000000 esp=0x40000FDC pd=0x7C1000 elf=2964B pages=3 argc=1
+    | [elf] loaded '/bin/syscheck' name='syscheck' entry=0x8048000 slot=1
+    | syscheck: start (probe getpid/lseek)
+    | syscheck: getpid()=5
+    | syscheck: open welcome.txt fd=3
+    | syscheck: lseek(5,SET)=5 read3="me "
+    | syscheck: lseek(2,CUR)=10 (expect 10)
+    | syscheck: lseek(-4,END)=243 read4="ow.
+    | syscheck: lseek(closed fd)=-1 (expect -1)
+    | syscheck: lseek(-1,SET)=-1 (expect -1)
+    | syscheck: PASS all getpid/lseek probes
+    | [syscall] pid=5 exit(0) ring3-ok
+    | [shell] elf: pid=5 'syscheck' exit_code=0
+
+--- badptr: 命令 'elf /bin/badptr'
+    进程创建=是  退出=是  断言=通过
+    | [task] reaped pid=5 'syscheck' (3 pages freed)
+    | [proc] create pid=6 'badptr' ring=3 entry=0x8048000 ustack=0x40000000 esp=0x40000FE0 pd=0x7C1000 elf=2908B pages=3 argc=1
+    | [elf] loaded '/bin/badptr' name='badptr' entry=0x8048000 slot=1
+    | badptr: start (probe EFAULT guard)
+    | badptr: OK   write(1, 0xC0000000, 5) -> -1 (拒绝)
+    | badptr: OK   write(1, 0x10, 5) -> -1 (拒绝)
+    | badptr: OK   write(1, 0x7FFFFFF0, 5) -> -1 (拒绝)
+    | badptr: OK   read(bf, 0x10, 4) -> -1 (拒绝)
+    | badptr: OK   open(0xC0000000, 0) -> -1 (拒绝)
+    | badptr: OK   sysinfo(0xC0000000) -> -1 (拒绝)
+    | badptr: OK   writev(1, 0xC0000000, 1) -> -1 (拒绝)
+    | badptr: OK   write(1, "ok\n", 3) -> 3 (接受)
+    | badptr: PASS all EFAULT probes (内核拒绝越权用户指针)
+    | [syscall] pid=6 exit(0) ring3-ok
+    | [shell] elf: pid=6 'badptr' exit_code=0
+
+========================================================
+  argecho      通过
+  hello_c      通过
+  fib          通过
+  syscheck     通过
+  badptr       通过
+========================================================
+结果: 用户程序全部加载/断言成功

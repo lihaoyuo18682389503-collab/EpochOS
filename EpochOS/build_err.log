@@ -1,0 +1,26 @@
+C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\gui.c: In function 'gfx_draw_rgba_icon':
+C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\gui.c:185:14: warning: implicit declaration of function 'gfx_width'; did you mean 'gfx_pitch'? [-Wimplicit-function-declaration]
+     int sw = gfx_width(), sh = gfx_height();
+              ^~~~~~~~~
+              gfx_pitch
+C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\gui.c: In function 'render_window':
+C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\gui.c:1514:5: warning: implicit declaration of function 'gfx_draw_shadow'; did you mean 'gfx_draw_char'? [-Wimplicit-function-declaration]
+     gfx_draw_shadow(wins[i].x + 2, win_top(i) + 2, wins[i].w, TITLE_H + wins[i].h, 3);
+     ^~~~~~~~~~~~~~~
+     gfx_draw_char
+C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\gui.c: In function 'gui_run':
+C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\gui.c:2541:10: warning: implicit declaration of function 'gfx_available' [-Wimplicit-function-declaration]
+     if (!gfx_available()) {
+          ^~~~~~~~~~~~~
+
+C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\vga.c: In function 'set_cell':
+C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\vga.c:30:10: warning: implicit declaration of function 'gfx_available' [-Wimplicit-function-declaration]
+     if (!gfx_available()) {
+          ^~~~~~~~~~~~~
+
+C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\wallpaper.c: In function 'wallpaper_blit':
+C:\Users\ThinkPad\AppData\Local\Temp\epochos_build\kernel\wallpaper.c:124:26: warning: implicit declaration of function 'gfx_width'; did you mean 'gfx_pitch'? [-Wimplicit-function-declaration]
+     gfx_mark_dirty(0, 0, gfx_width(), gfx_height());
+                          ^~~~~~~~~
+                          gfx_pitch
+

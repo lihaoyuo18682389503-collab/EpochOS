@@ -1,0 +1,13 @@
+ba1cf8c158eb811fe2839994f409ac26  S0_desktop.png
+603292d5ef73e43cc95c716fd00ff08c  S1_calcopen.png
+44e3f5ade6e574971613c9d8ff3efb2e  S2_activated.png
+77af1d861442122536970de00429016b  S3_2.png
+6f0d339ee18bf8931b132e434c2053f6  S4_plus.png
+a4ed8437f6ffd90f6cfacf2fc776d3fd  S5_3.png
+24d3207dd2c00a7936af0142922c8ea7  S6_result.png
+11f1d2afdd715291c318480c9c429b64  S0_taskbar_zoom.png
+5c570ef9548af3ba022cdb5100e62e5d  S0_taskbar_left_zoom.png
+febafd2184a7c9ebd0b17f7269776069  S1_calc_titlebar_zoom.png
+
+TOTAL: 10 files, unique MD5: 10
+（内容由AI生成，仅供参考）
